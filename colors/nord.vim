@@ -246,7 +246,7 @@ call s:hi("SignColumn", s:nord1_gui, s:nord0_gui, s:nord1_term, "NONE", "", "")
 call s:hi("Directory", s:nord8_gui, "", s:nord8_term, "NONE", "", "")
 
 "+--- Prompt/Status ---+
-call s:hi("EndOfBuffer", s:nord1_gui, "", s:nord1_term, "NONE", "", "")
+call s:hi("EndOfBuffer", s:nord0_gui, "", s:nord1_term, "NONE", "", "")
 call s:hi("ErrorMsg", s:nord4_gui, s:nord11_gui, "NONE", s:nord11_term, "", "")
 call s:hi("ModeMsg", s:nord4_gui, "", "", "", "", "")
 call s:hi("MoreMsg", s:nord8_gui, "", s:nord8_term, "", "", "")
@@ -278,9 +278,9 @@ call s:hi("TabLineSel", s:nord8_gui, s:nord3_gui, s:nord8_term, s:nord3_term, "N
 call s:hi("Title", s:nord4_gui, "", "NONE", "", "NONE", "")
 
 if g:nord_bold_vertical_split_line == 0
-  call s:hi("VertSplit", s:nord2_gui, s:nord0_gui, s:nord3_term, "NONE", "NONE", "")
+  call s:hi("VertSplit", s:nord0_gui, "", "NONE", "NONE", "", "")
 else
-  call s:hi("VertSplit", s:nord2_gui, s:nord1_gui, s:nord3_term, s:nord1_term, "NONE", "")
+  call s:hi("VertSplit", s:nord0_gui, s:nord3_gui, "NONE", "NONE", "", "")
 endif
 
 "+----------------------+
